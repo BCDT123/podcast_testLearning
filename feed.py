@@ -20,7 +20,7 @@ xml_tree.SubElement(channel_element, 'description').text = yaml_data['descriptio
 xml_tree.SubElement(channel_element, 'itunes:image',{'href': link_prefix + yaml_data['image']})
 xml_tree.SubElement(channel_element, 'language').text = yaml_data['language']
 xml_tree.SubElement(channel_element, 'link').text = link_prefix
-xml_tree.SubElement(channel_element, 'itynes:category',{'text':yaml_data['category']})
+xml_tree.SubElement(channel_element, 'itunes:category',{'text':yaml_data['category']})
 xml_tree.SubElement(channel_element, 'title').text = yaml_data['title']
 
 
