@@ -26,5 +26,4 @@ jobs:
          git diff --cached --quiet || git commit -m "Modified Feed"
          git push
        
-|
           
