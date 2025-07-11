@@ -7,5 +7,5 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v3
       - name: Run Feed Generator
-        uses: BCDT123/podcast_Generator@main
+        uses: BCDT123/podcast_GeneratorLearning@main
 
